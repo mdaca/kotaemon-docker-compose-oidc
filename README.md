@@ -2,8 +2,7 @@
 ## Persistent deployment configuration for Kotaemon that utilizes OIDC for authentication
 
 # 👋🏻 Introduction
-Utilizes FastAPI to create an OIDC wrapper around Kotaemon ( https://github.com/Cinnamon/kotaemon )
-Can be deployed using docker compose after setting a few variables in the docker-compose.yml.
+Utilizes FastAPI to create an OIDC wrapper around Kotaemon ( https://github.com/Cinnamon/kotaemon ).  Can be deployed using docker compose after setting a few variables in the docker-compose.yml.
 
 # 👨🏻‍💻 Run from your local machine
 1. Clone the repo, then cd into the kotaemon-docker-compose-oidc directory.
