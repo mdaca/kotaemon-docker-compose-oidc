@@ -4,7 +4,6 @@ import gradio as gr
 from ktem.app import BasePage
 from ktem.db.models import User, engine
 from sqlmodel import Session, select
-from keycloak import KeycloakOpenID
 from starlette.responses import RedirectResponse
 
 fetch_creds = """
